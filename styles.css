@@ -1,0 +1,52 @@
+
+body {
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: #eee;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.container .counter {
+  background-color: white;
+  padding: 8rem;
+  border-radius: 3rem;
+  
+}
+
+p {
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+  padding: 1rem;
+  border: none;
+  color: white;
+  background-color: green;
+  border-radius: 1rem;
+}
+
+.sub {
+  padding: 1rem;
+  border: none;
+  color: white;
+  background-color:orangered;
+  border-radius: 1rem;
+}
+
+.rest {
+  padding: 1rem;
+  border: none;
+  color: blue;
+  background-color: #eee;
+  border-radius: 1rem;
+}
+
+button {
+  margin: 1rem;
+}
